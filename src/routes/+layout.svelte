@@ -4,7 +4,8 @@
 
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="logo.png">Louboutin</a>
+        <a class="navbar-brand" href="/#">Louboutin</a>
+
         <button
             class="navbar-toggler"
             type="button"
