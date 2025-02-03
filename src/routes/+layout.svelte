@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/#">DW4</a>
+        <a class="navbar-brand" href="logo.png">Louboutin</a>
         <button
             class="navbar-toggler"
             type="button"
@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/sobre">Sobre</a>
+                    <a class="nav-link" href="/sobre">Melhores saltos</a>
                 </li>
             </ul>
         </div>
