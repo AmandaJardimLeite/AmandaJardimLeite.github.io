@@ -1,10 +1,10 @@
 <script>
-    let { children } = $props();
+    let { children } = $props;
 </script>
 
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/#">Louboutin</a>
+        <a class="navbar-brand" href="/">Louboutin</a>
 
         <button
             class="navbar-toggler"
@@ -22,9 +22,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/sobre">Melhores saltos</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contato">Contato</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
 
-{@render children()}
+<main>
+    <slot /> <!-- Aqui o conteúdo das páginas será inserido -->
+</main>
