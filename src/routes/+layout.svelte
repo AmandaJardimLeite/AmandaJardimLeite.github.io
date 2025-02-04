@@ -30,9 +30,5 @@
     </div>
 </nav>
 
-<main>
-    <slot /> 
-</main>
-
 {@render children()}
 
