@@ -1,10 +1,12 @@
 <script>
+    import { base } from '$app/paths';
     let { children } = $props();
 </script>
 
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/#">Louboutin</a>
+        <!-- Logo que leva para a página inicial -->
+        <a class="navbar-brand" href="{base}/">Louboutin</a>
 
         <button
             class="navbar-toggler"
@@ -17,13 +19,14 @@
         >
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/sobre">Melhores saltos</a>
+                    <a class="nav-link" href="{base}/colecao">Coleções</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sobree">Sobre a Marca</a>
+                    <a class="nav-link" href="{base}/sobre">Sobre a Marca</a>
                 </li>
             </ul>
         </div>
@@ -31,4 +34,5 @@
 </nav>
 
 {@render children()}
+
 
