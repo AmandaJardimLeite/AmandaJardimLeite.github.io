@@ -1,11 +1,10 @@
 <script>
     import { base } from '$app/paths';
-    let { children } = $props();
 </script>
 
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/AmandaJardimLeite.github.io">Louboutin</a>
+        <a class="navbar-brand" href="{base}">Louboutin</a>
 
         <button
             class="navbar-toggler"
@@ -21,15 +20,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/AmandaJardimLeite.github.io/sobre">Sobre a Marca</a>
+                    <a class="nav-link" href="{base}/sobre">Sobre a Marca</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/AmandaJardimLeite.github.io/colecao">Coleções</a>
+                    <a class="nav-link" href="{base}/colecao">Coleções</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/AmandaJardimLeite.github.io/contato">Contato</a>
+                    <a class="nav-link" href="{base}/contato">Contato</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+
+
