@@ -6,7 +6,8 @@
     ];
 </script>
 
-<h1>Coleção Favorita</h1>
+<h2><p style="text-align: center;">Coleção Favorita</p></h2>
+<br>
 <div class="galeria">
     {#each produtos as produto}
         <div class="item">
